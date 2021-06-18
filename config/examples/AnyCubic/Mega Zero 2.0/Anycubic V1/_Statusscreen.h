@@ -3,7 +3,7 @@
  * Copyright (C) 2021 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
  * Based on Sprinter and grbl.
- * Copyright (C) 2011 Camiel Gubbels / Erik van der Zalm
+ * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -27,7 +27,8 @@
 #define STATUS_LOGO_WIDTH 48
 #define STATUS_LOGO_X 8
 #define STATUS_LOGO_Y 10
-#define STATUS_HEATERS_X 80
+#define STATUS_HEATERS_X 54
+#define STATUS_BED_X 74
 
 const unsigned char status_logo_bmp[] PROGMEM = {
   B01110011,B11001111,B11110000,B11111100,B00000000,B00111110,
